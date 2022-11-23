@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+    <head>
+<title>Gilbertsite</title>
+<meta charset="utf-8"> <!-- FOR ARABIC LETTERS-->
+<meta name="description" content="موقع شخصي">
+        
+       
+        
+<link rel="stylesheet" href="./css/style.css">
+    
+ 
+
+        
+    </head>
+    <body>
+        <header>
+            <div class="ccontainer">
+                <div id="cbrand">
+
+                    
+                   <h3 >Contact Us :</h3> 
+                   
+                    <h3> Phone : 00964 805809348509 </h3>
+                    <h3> email : galarees@gmail.com  </h3>
+             
+
+                    
+                </div>
+                <nav >
+                    <ul>
+                        <li class="current"><a href="index.html" style="display: flex">Main Page </a> </li>
+                        <li><a href="#">About</a> </li>
+                        <li><a href="#">Contact Us</a> </li>
+                        <li> <a href="#">Our Story </a> </li>
+                    </ul>
+                </nav> 
+
+                
+                
+            </div>
+        </header>
+        
+
+        
+        <section id="newsletter">
+            <div class ="container">
+                
+        <input id="txt" style="font-size: 35px;font-weight: bolder ;color:#32a0c2; border: transparent ;background-color: transparent ;margin-top: 20px; width: 500px;text-align: left;" />
+         
+        <script>
+            var text = "Contact Us Through email";
+            var cIndex = 0;
+            var myT = setInterval(function(){
+                window.txt.value += text[cIndex++];
+                if(cIndex >=text.length){
+                    clearInterval(myT);
+                }
+                
+            },300);
+        </script>
+                
+                
+               <!-- <h1>Subscribe To The NewsLetter</h1>-->
+                
+                
+                <form action="">
+                    <input type="email" placeholder="ُEnter Your Email Address">
+                    <button type="submit" class="button">Contact Us</button>
+                </form>
+            </div>
+        </section>
+                       <h1 style="margin-left: 110px;color: #353637">Our Branches </h1>
+                   
+        <section id="boxes">
+            <div class="ccontainer">
+
+                <div class="box">
+
+                    <p>
+                        <img style="width: 220px;height: 220px;" src="images/br1.jpg">           
+                    </p>
+                    <h2> The Coast Branch </h2>
+                    <h2> phone : 05 8747 3445 </h2>
+                </div>
+        
+                <div class="box">
+                    <p>
+                        <img style="width: 220px;height: 220px" src="images/br2.jpg">           
+                    </p>
+                        <h2> High Way Branch </h2>
+                        <h2> phone : 01 3455 4456 </h2>
+                </div>
+ 
+                <div class="box">
+                        <p>
+                            <img style="width: 220px;height: 220px" src="images/br3.jpg">           
+                        </p>
+                        <h2> City Center Branch </h2>
+                        <h2> phone : 01 4422 5534 </h2>
+                </div>
+                
+                    </div>
+            
+            
+        </section>
+
+    </body>
+    
+    <footer> 
+        <p> Gilbert Elkhoury Official WebSite &copy; 2022</p>
+    </footer>
+    
+</html>
